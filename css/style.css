@@ -9735,3 +9735,17 @@ p {
     position: relative;
     z-index: 2; /* Ensure the text is above the images */
 }
+/* Adjust image size and position */
+.slider-item .js-fullheight {
+    margin-top: 70px; /* Adjust this value as needed to fit your design */
+    height: 400px; /* Set the height of the images */
+    background-size: contain; /* Make sure the images fit within the specified height */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-position: center; /* Center the images */
+}
+
+/* Ensure the text content stays on top */
+.slider-item .one-forth {
+    position: relative;
+    z-index: 2; /* Ensure the text is above the images */
+}
