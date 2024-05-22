@@ -9725,16 +9725,7 @@ p {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 }
-/* Add margin to move images down */
-.slider-item .js-fullheight {
-    margin-top: 70px; /* Adjust this value as needed to fit your design */
-}
 
-/* Ensure the text content stays on top */
-.slider-item .one-forth {
-    position: relative;
-    z-index: 2; /* Ensure the text is above the images */
-}
 /* Adjust image size and position */
 .slider-item .js-fullheight {
     margin-top: 70px; /* Adjust this value as needed to fit your design */
