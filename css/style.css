@@ -9726,8 +9726,8 @@ p {
   border-radius: 10px;
 }
 
-/* Adjust image size and position */
-.slider-item .js-fullheight {
+/* Adjust image size and position for swad.png */
+.slider-item .js-fullheight[style*="background-image:url(images/swad.png)"] {
     margin-top: 70px; /* Adjust this value as needed to fit your design */
     height: 400px; /* Set the height of the images */
     background-size: contain; /* Make sure the images fit within the specified height */
