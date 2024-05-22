@@ -9727,12 +9727,12 @@ p {
 }
 
 /* Adjust image size and position for swad.png */
-.slider-item .js-fullheight[style*="background-image:url(images/swad.png)"] {
+.slider-item .js-fullheight.swad-png {
     margin-top: 70px; /* Adjust this value as needed to fit your design */
-    height: 400px; /* Set the height of the images */
-    background-size: contain; /* Make sure the images fit within the specified height */
+    height: 400px; /* Set the height of the image */
+    background-size: contain; /* Make sure the image fits within the specified height */
     background-repeat: no-repeat; /* Prevent image repetition */
-    background-position: center; /* Center the images */
+    background-position: center; /* Center the image */
 }
 
 /* Ensure the text content stays on top */
