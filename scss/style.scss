@@ -1986,3 +1986,40 @@ textarea.form-control {
     stroke-dashoffset: -136px;
   }
 }
+/* Existing styles */
+
+/* Add the new styles at the end of the file */
+.text-primary {
+  color: #007bff;
+  font-weight: bold;
+}
+
+p {
+  margin-bottom: 1.5rem;
+}
+
+.img-about {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.heading-section h1.big {
+  font-size: 4rem;
+  line-height: 1;
+  color: #343a40;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.heading-section h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  font-weight: 400;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
